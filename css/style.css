@@ -11,6 +11,8 @@ Global Css-------- */
     --second-color: #ffffff;
     --three-color:#86a4eb;
     --four-color: #407c92f8;
+    --icon-mode-light: #c3897cfa;
+    --icon-mode-dark: #407c92f6;
     --bg-box-light:#f5c37821;
     --bg-box-dark:#78e9f521;
     --color-1: #e91e63;
@@ -27,6 +29,7 @@ Global Css-------- */
     --black-000: #ffffff;
     --black-alpha-100: rgba(0,0,0,0.05);
     --black-before: rgba(0,0,0,0.6);
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -69,6 +72,7 @@ body.dark{
     --black-900: #ffffff;
     --black-400: #bbbbbb;
     --bg-box-light: var(--bg-box-dark);
+    --icon-mode-dark: var(--icon-mode-light);
 }
 body.dark::before{
     content: '';
@@ -1407,7 +1411,7 @@ Toogle Theme - Light and Dark Mode
     bottom: 4%;
     height: 40px;
     width: 40px;
-    background-color: var(--four-color);
+    background-color: var(--icon-mode-dark);
     z-index: 2200;
     color: #ffffff;
     cursor: pointer;
