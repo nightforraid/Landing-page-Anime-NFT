@@ -1407,7 +1407,7 @@ Toogle Theme - Light and Dark Mode
     bottom: 4%;
     height: 40px;
     width: 40px;
-    background-color: var(--dark-to-main-color);
+    background-color: var(--main-color);
     z-index: 2200;
     color: #ffffff;
     cursor: pointer;
