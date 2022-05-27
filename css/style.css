@@ -859,7 +859,7 @@ Roadmap / Timeline
     width: 2px;
     top: -50px;
     bottom: -50px;
-    background-color: #000000;
+    background-color: var(--main-color);
     display: none;
 }
 
@@ -871,7 +871,7 @@ Roadmap / Timeline
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: var(--main-color);
     left: 50%;
     transform: translateX(-50%);
 }
@@ -905,7 +905,7 @@ Roadmap / Timeline
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
-    background-color: #000000;
+    background-color: var(--main-color);
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
@@ -923,6 +923,14 @@ Roadmap / Timeline
     font-weight: 400;
     letter-spacing: 1px;
 }
+
+.container-roadmap h1,
+.container-roadmap h2, 
+.container-roadmap p
+{
+    color: #ffffff;
+}
+
 /* ---------------------------------------
 Pricing Section
 ------------------------------------------ */
