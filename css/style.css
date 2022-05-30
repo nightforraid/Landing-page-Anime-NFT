@@ -1296,21 +1296,21 @@ Animation Start
 
   .stars {
     position: fixed;
-    top: -400px;
-    left: 0;
+    top: -600px;
+    right: -310px;
     width: 100%;
     height: 200%;
     transform: rotate(-45deg);
-    z-index: 1;
+    z-index: -1;
   }
 
   .stars-2{
     position: fixed;
-    top: -100px;
-    left: 0;
+    top: -700px;
+    left: 700px;
     width: 200%;
     transform: rotate(-45deg);
-    z-index: 1;
+    z-index: -1;
   }
 
   .star {
@@ -1330,7 +1330,27 @@ Animation Start
     border-radius: 50%;
     filter: drop-shadow(0 0 6px currentColor);
     transform: translate3d(104em, 0, 0);
-    animation: fall var(--fall-duration) var(--fall-delay) linear infinite;
+    animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
+  }
+
+  .stars-2 .star {
+    --star-color: var(--stars-color-light);
+    --star-tail-length: 6em;
+    --star-tail-height: 2px;
+    --star-width: calc(var(--star-tail-length) / 6);
+    --fall-duration: 9s;
+    --tail-fade-duration: var(--fall-duration);
+    position: absolute;
+    top: var(--top-offset);
+    left: 0;
+    width: var(--star-tail-length);
+    height: var(--star-tail-height);
+    color: var(--star-color);
+    background: linear-gradient(45deg, currentColor, transparent);
+    border-radius: 50%;
+    filter: drop-shadow(0 0 6px currentColor);
+    transform: translate3d(104em, 0, 0);
+    animation: fall var(--fall-duration) var(--fall-delay) linear infinite, tail-fade var(--tail-fade-duration) var(--fall-delay) ease-out infinite;
   }
   
   /* .star {
