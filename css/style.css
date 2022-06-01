@@ -684,25 +684,31 @@ Fun Facts Section
 .fun-facts-text p{
     font-size: 16px;
     line-height: 26px;
-    color: var(--black-400);
+    color: #ffffff;
     margin: 0 0 15px;
     font-weight: 300;
 }
-.fun-fact-item{
+.fun-facts-item{
     padding: 30px;
     text-align: center;
     box-shadow: var(--shadow-black-100);
     border-radius: 10px;
     margin-top: 30px;
 }
-.fun-fact-item h3{
+.fun-facts-item h3{
     font-size: 30px;
     font-weight: 300;
     color: #ffffff;
     margin: 0 0 6px;
 }
-.fun-fact-item span{
-    font-size: 16px;
+.fun-facts-text h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0 0 6px;
+}
+.fun-facts-item span{
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 300;
     margin: 0;
@@ -710,7 +716,7 @@ Fun Facts Section
     display: block;
     color: #ffffff;
 }
-.fun-fact-item.style-1{
+/* .fun-fact-item.style-1{
     background-color: var(--color-1);
 }
 
@@ -724,7 +730,7 @@ Fun Facts Section
 
 .fun-fact-item.style-4{
     background-color: var(--main-color);
-}
+} */
 
 /* -------------------
 App Screenshots Section
@@ -999,6 +1005,40 @@ Roadmap / Timeline
   #timeline .timeline-item .timeline-icon {
     left: 0;
   }
+}
+
+/* How Build */
+.how-build .section-title{
+  margin-bottom: 20px;
+}
+.how-build .section-title h2{
+  text-align: left;
+}
+.how-build-img img{
+  max-width: 250px;
+  width: 100%;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 32px;
+}
+.how-build-text p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin: 0 0 15px;
+  font-weight: 300;
+}
+.how-build-item{
+  padding: 30px;
+  text-align: center;
+  box-shadow: var(--shadow-black-100);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.how-build-item h3{
+  font-size: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  margin: 0 0 6px;
 }
 
 
