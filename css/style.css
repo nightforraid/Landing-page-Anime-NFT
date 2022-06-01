@@ -253,7 +253,7 @@ ul{
 Video
 --------------------------------- */
 /* Video */
-#video{
+/* #video{
     top: -70px;
     left: 0;
     right: 0;
@@ -288,7 +288,7 @@ Video
 video {
     display: inline-block;
     vertical-align: baseline;
-}
+} */
 
 /* ------------------------------
 Preloader
@@ -328,7 +328,7 @@ Navbar
 .navbar.navbar-shrink{
     box-shadow: 0 10px 10px rgba(0,0,0,0.1);
     background-color: var(--main-color);
-    padding: 10px 0;
+    padding: 17px 0;
 }
 
 .navbar > .container{
@@ -419,7 +419,6 @@ Home Section
     width: 100%;
     box-shadow: var(--shadow-black-100);
     border-radius: 32px;
-    animation: bounceTop_01 3s ease infinite;
 }
 .home-img{
     position: relative;
@@ -1161,7 +1160,7 @@ Team Section
 /* --------------
 Faq Section
 ----------------- */
-
+/* 
 .faq .accordion-item:not(:last-child){
     margin-bottom: 20px;
 }
@@ -1217,7 +1216,7 @@ Faq Section
     color: #ffffff;
     line-height: 26px;
     margin: 0;
-}
+} */
 
 /* --------------------------------------------
 Footer
