@@ -5,6 +5,9 @@ $(window).on("load",function(){
 });
 
 $(document).ready(function(){
+
+    /*-----------sticky image-------------- */
+    
     
     /*----------------- Scroll Down -------------------- */
     $('a[href*="#"]').on('click', function(e) {
