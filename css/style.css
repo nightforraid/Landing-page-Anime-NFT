@@ -38,7 +38,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     overflow-x: hidden;
-    background-image: url('../img/angel.jpg');
+    background-image: url('../img/LangitA.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body::before{
     opacity: 0.8;
 }
 body.dark{
-    background-image: url('../img/demon-bg.jpg');
+    background-image: url('../img/LangitB.png');
     background-attachment: fixed;
     background-position: center left;
     background-repeat: no-repeat;
@@ -856,12 +856,13 @@ Roadmap / Timeline
   text-align: center;
   margin: 100px 0;
   color: #ffffff;
+  font-weight: 700;
 }
 
 
 
 .timeline-container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1758,6 +1759,17 @@ Animation Start
       opacity: 0.6;
     }
   }
+
+
+
+/* ------------------------------------
+RoadMapp
+--------------------------------------- */
+.rdmap{
+    
+}
+
+
 
 /* ------------------------------------
 Responsive
