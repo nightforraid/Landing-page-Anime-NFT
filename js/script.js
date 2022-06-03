@@ -19,15 +19,15 @@ TweenMax.to(".box", 2.4, {
   delay: 1,
 });
 
-TweenMax.from("img", 4, {
+TweenMax.from("#imges", 4, {
   scale: "2",
   ease: Expo.easeInOut,
   delay: 0,
 });
 
-TweenMax.to(".wrapper-img", 2.4, {
-  width: "400",
-  height: "500",
+TweenMax.to(".front-img", 2.1, {
+  width: "1000",
+  height: "700",
   ease: Expo.easeInOut,
   delay: 3.6,
 });
@@ -45,12 +45,6 @@ TweenMax.to(".left", 2, {
   delay: 3.8,
 });
 
-TweenMax.to(".right", 2, {
-  x: "100",
-  rotation: 10,
-  ease: Expo.easeInOut,
-  delay: 3.8,
-});
 
 TweenMax.staggerFrom(
   ".navbar > div, .home > div",
@@ -63,3 +57,4 @@ TweenMax.staggerFrom(
   },
   0.1
 );
+
