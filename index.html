@@ -13,16 +13,12 @@
   <link rel="stylesheet" href="css/bootstrap.min.css"> 
   <!-- main css -->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </head>
 <body>
 
-
-  <!-- Preloader Start -->
-  <div class="preloader">
-    <span></span>
-  </div>
-  <!-- Preloader End -->
 
  <!-- Navbar Start -->
  <nav class="navbar navbar-expand-lg fixed-top">
@@ -203,6 +199,19 @@
   </div>
 </section>
  <!-- Home Section End -->
+
+ <!-- Intro Animation Start -->
+        <div class="hero-image">
+          <div class="wrapper-img">
+            <div class="box"></div>
+            <div>
+              <img class="image" src="img/character/character.png" />
+            </div>
+          </div>
+        </div>  
+        <div class="header"><p class="title">Anime</p></div>
+</section>
+<!-- Intro Animation End -->
 
  <!-- Features Section Start -->
  <!-- <section class="features section-padding" id="features" data-scroll-index="1">
@@ -824,9 +833,7 @@
 <script src="js/scrollIt.min.js"></script>
 <!-- main js -->
 <script src="js/main.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+<!-- script js -->
+<script src="js/script.js"></script>
 </body>
 </html>
